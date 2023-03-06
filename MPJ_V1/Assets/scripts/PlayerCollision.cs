@@ -17,7 +17,22 @@ public class PlayerCollision : MonoBehaviour
             if (rb.velocity.y <= 0)
             {
                 Vector2 bounceDirection = new Vector2(0f, 1f);
-                rb.AddForce(bounceDirection * bounceForce, ForceMode2D.Impulse);
+                if (collision.gameObject.name == "Cyan")
+                {
+                    rb.AddForce(bounceDirection * 50f, ForceMode2D.Impulse);
+                }
+                else if (collision.gameObject.name == "Pink")
+                {
+                    rb.AddForce(bounceDirection * 150f, ForceMode2D.Impulse);
+                }
+                else if (collision.gameObject.name == "Yellow")
+                {
+                    rb.AddForce(bounceDirection * 400f, ForceMode2D.Impulse);
+                }   
+                else
+                {
+                    rb.AddForce(bounceDirection * bounceForce, ForceMode2D.Impulse);
+                }
             }
         }
     }

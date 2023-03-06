@@ -592,6 +592,7 @@ GameObject:
   - component: {fileID: 890745370}
   - component: {fileID: 890745371}
   - component: {fileID: 890745372}
+  - component: {fileID: 890745373}
   m_Layer: 0
   m_Name: Player
   m_TagString: Bouncer
@@ -764,6 +765,21 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
+--- !u!114 &890745373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 890745365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da0b3b75494a40b4fb8f2e32a767850d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cyanPrefab: {fileID: 0}
+  pinkPrefab: {fileID: 0}
+  yellowPrefab: {fileID: 0}
 --- !u!1001 &1259681678
 PrefabInstance:
   m_ObjectHideFlags: 0
