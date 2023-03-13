@@ -10,8 +10,8 @@ public class destroyer : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        float minX = -2.5f;
-        float maxX = 2.5f;
+        float minX = -2.2f;
+        float maxX = 2.2f;
 
         Vector2 spawnPosition = new Vector2(UnityEngine.Random.Range(minX, maxX), player.transform.position.y + (4 + UnityEngine.Random.Range(0.5f, 1.5f)));
 

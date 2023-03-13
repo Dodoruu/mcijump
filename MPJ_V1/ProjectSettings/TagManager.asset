@@ -6,6 +6,9 @@ TagManager:
   tags:
   - bouncerTag
   - Bouncer
+  - Cyan
+  - Yellow
+  - Pink
   layers:
   - Default
   - TransparentFX
